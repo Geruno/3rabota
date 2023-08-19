@@ -1,3 +1,7 @@
 ﻿Console.WriteLine("Введите число: ");
-string str_num_1 = Console.ReadLine();
-int num_1 = int.Parse(str_num_1);
+string str_num = Console.ReadLine();
+int num = int.Parse(str_num);
+for (int i = 1; i <= num; i++)
+{
+    Console.Write($"{i*i*i} ");
+}
